@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 8</title>
-    <link rel="stylesheet" href="css/common.css" />
-  </head>
-  <body>
-    <ul>
-      <li><a href="01-gallery.html">Image gallery</a></li>
-      <li><a href="02-video.html">Video playback</a></li>
-      <li><a href="03-feedback.html">Feedback form</a></li>
-    </ul>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOIT Javascript Homework 11</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <form class="search-form" id="search-form">
+            <input            
+              type="text"
+              name="searchQuery"
+              autocomplete="off"
+              placeholder="Search images..."
+            />
+            <button type="submit">Search</button>
+          </form>
+    </header>
+    <main class="content">
+        <section class="gallery-sec">
+            <div class="gallery-con">
+                <div class="gallery">
+                    <!--Image Cards-->
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/scirpt.js" type="module"></script>
+</body>
 </html>
